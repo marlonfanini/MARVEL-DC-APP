@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MARVEL-DC-APP/static/css/main.15e7b596.css",
-    "main.js": "/MARVEL-DC-APP/static/js/main.202b3791.js",
+    "main.js": "/MARVEL-DC-APP/static/js/main.fd4237ac.js",
     "index.html": "/MARVEL-DC-APP/index.html",
     "main.15e7b596.css.map": "/MARVEL-DC-APP/static/css/main.15e7b596.css.map",
-    "main.202b3791.js.map": "/MARVEL-DC-APP/static/js/main.202b3791.js.map"
+    "main.fd4237ac.js.map": "/MARVEL-DC-APP/static/js/main.fd4237ac.js.map"
   },
   "entrypoints": [
     "static/css/main.15e7b596.css",
-    "static/js/main.202b3791.js"
+    "static/js/main.fd4237ac.js"
   ]
 }
