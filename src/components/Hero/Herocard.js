@@ -10,6 +10,7 @@ export const Herocard = ({
     first_appearance, 
     characters
 }) => {
+
   return (
     <div className="col">
     <div className ="card">
@@ -17,7 +18,7 @@ export const Herocard = ({
 
         <div className ="row no-gutters">
             <div className ="col-4">
-            <img key={id} src = {`/assets/${id}.jpg`} className="animate__animated animate__fadeIn card-img-top" alt={superhero}></img>
+            <img key={id} src = {`./assets/${id}.jpg`} className="animate__animated animate__fadeIn card-img-top" alt={superhero}></img>
         </div>
 
         <div className="col-8 animate__animated animate__fadeIn">

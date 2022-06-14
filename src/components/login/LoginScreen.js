@@ -16,6 +16,8 @@ export const LoginScreen = () => {
         }
         dispatch(action)
 
+
+
         navigate('/marvel', {
           replace: true
         });
