@@ -1,0 +1,49 @@
+.col {
+    padding: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 25px;
+    transition: all 300ms;
+}
+
+.card {
+    border: 3px solid #05d5f995;
+    border-radius: 15px;
+}
+
+
+
+.col:hover {
+ box-shadow: 10px 10px 0px 0px #46A2FD, 20px 20px #83C1FD, 30px 30px 14px #ACD5FD;
+ transform: translate(-5px, -5px )
+}
+
+ul li a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    position: relative;
+    font-size: 4em;
+    text-decoration:none;
+    text-transform: uppercase;
+    color: transparent; 
+    -webkit-text-stroke: 1px grey;
+    
+
+}
+
+ul li a::before {
+
+    content: attr(data-text);
+    position: absolute;
+    color: red;
+    width: 0%;
+    overflow: hidden;
+    transition: 1s;
+  
+}
+
+
+ul li a:hover::before {
+    width:100%
+}
+
